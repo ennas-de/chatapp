@@ -52,7 +52,7 @@ Is there anything else you would like to know about this chat app?
 ```bash
 mkdir ~/Dev
 cd ~/Dev
-git clone https://github.com/Arvind-4/Chatapp.git
+git clone https://github.com/ennas-de/chat-app.git
 cd Chatapp
 ```
 
@@ -174,16 +174,16 @@ Feel free to [open an issue](https://github.com/ennas-de/Chat-app/issues) on Git
 ## ⭐ Feature Request
 
 -   Feel free to [Open an issue](https://github.com/ennas-de/chat-app/issues) on GitHub to request any additional features you might need for your use case.
--   Connect with me on [LinkedIn](https://www.linkedin.com/in/a-arvind/). I'd love ❤️️ to hear from you.
+-   Connect with me on [LinkedIn](https://www.linkedin.com/in/abdulhakeem-muhammed-ibiyemi/). I'd love ❤️️ to hear from you.
 
 <a id="change-logs"></a>
 
 ## 📋 Change Log:
 
-Check [here](https://github.com/Arvind-4/Chatapp/commits/main) for change logs.
+Check [here](https://github.com/ennas-de/chat-app/commits/main) for change logs.
 
 <a id="license"></a>
 
 ## 📜 License
 
-This software is open source, licensed under the [MIT License](https://github.com/Arvind-4/Chatapp/blob/main/LICENSE).
+This software is open source, licensed under the [MIT License](https://github.com/ennas-de/chat-app/blob/main/LICENSE).
