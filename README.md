@@ -53,7 +53,7 @@ Is there anything else you would like to know about this chat app?
 mkdir ~/Dev
 cd ~/Dev
 git clone https://github.com/ennas-de/chat-app.git
-cd Chatapp
+cd chat-app
 ```
 
 2. Create virtual environment and activate it.
@@ -68,8 +68,8 @@ Use `.\venv\Scripts\activate` if on **Windows.**
 3. Install requirements
 
 ```bash
-$(Chatapp) python -m pip install pip --upgrade
-$(Chatapp) python -m pip install -r requirements.txt
+$(chat-app) python -m pip install pip --upgrade
+$(chat-app) python -m pip install -r requirements.txt
 ```
 
 4. Open VS Code
@@ -116,29 +116,29 @@ python -c 'from django.core.management.utils import get_random_secret_key; print
 Below will start a Docker Instance on your local machine to match the `.env` from the previous step.
 
 ```bash
-docker build -t chatapp:v1 .
+docker build -t chat-app:v1 .
 ```
 
 Start the Docker Build Image:
 
 ```bash
-docker run -it -p 8000:8000 chatapp:v1
+docker run -it -p 8000:8000 chat-app:v1
 ```
 
 7. Run Django Commands & Migrations and Create Superuser
 
 ```bash
-cd ~/Dev/Chatapp
+cd ~/Dev/chat-app
 source bin/activate
-$(Chatapp) python manage.py makemigrations
-$(Chatapp) python manage.py migrate
-$(Chatapp) python manage.py createsuperuser
+$(chat-app) python manage.py makemigrations
+$(chat-app) python manage.py migrate
+$(chat-app) python manage.py createsuperuser
 ```
 
 Run the server:
 
 ```bash
-$(Chatapp) python manage.py runserver
+$(chat-app) python manage.py runserver
 ```
 
 8. Install & Build the Front end.
