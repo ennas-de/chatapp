@@ -161,19 +161,19 @@ npm run production
 
 Click the Button to Deploy to [Render](https://render.com/).
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Arvind-4/Chatapp)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ennas-de/Chat-app)
 
 <a id="bug"></a>
 
 ## 🐛 Bug Reporting
 
-Feel free to [open an issue](https://github.com/Arvind-4/Chatapp/issues) on GitHub if you find any bug.
+Feel free to [open an issue](https://github.com/ennas-de/Chat-app/issues) on GitHub if you find any bug.
 
 <a id="feature-request"></a>
 
 ## ⭐ Feature Request
 
--   Feel free to [Open an issue](https://github.com/Arvind-4/Chatapp/issues) on GitHub to request any additional features you might need for your use case.
+-   Feel free to [Open an issue](https://github.com/ennas-de/chat-app/issues) on GitHub to request any additional features you might need for your use case.
 -   Connect with me on [LinkedIn](https://www.linkedin.com/in/a-arvind/). I'd love ❤️️ to hear from you.
 
 <a id="change-logs"></a>
