@@ -52,8 +52,8 @@ Is there anything else you would like to know about this chat app?
 ```bash
 mkdir ~/Dev
 cd ~/Dev
-git clone https://github.com/ennas-de/chat-app.git
-cd chat-app
+git clone https://github.com/ennas-de/chatapp.git
+cd chatapp
 ```
 
 2. Create virtual environment and activate it.
@@ -68,8 +68,8 @@ Use `.\venv\Scripts\activate` if on **Windows.**
 3. Install requirements
 
 ```bash
-$(chat-app) python -m pip install pip --upgrade
-$(chat-app) python -m pip install -r requirements.txt
+$(chatapp) python -m pip install pip --upgrade
+$(chatapp) python -m pip install -r requirements.txt
 ```
 
 4. Open VS Code
@@ -116,29 +116,29 @@ python -c 'from django.core.management.utils import get_random_secret_key; print
 Below will start a Docker Instance on your local machine to match the `.env` from the previous step.
 
 ```bash
-docker build -t chat-app:v1 .
+docker build -t chatapp:v1 .
 ```
 
 Start the Docker Build Image:
 
 ```bash
-docker run -it -p 8000:8000 chat-app:v1
+docker run -it -p 8000:8000 chatapp:v1
 ```
 
 7. Run Django Commands & Migrations and Create Superuser
 
 ```bash
-cd ~/Dev/chat-app
+cd ~/Dev/chatapp
 source bin/activate
-$(chat-app) python manage.py makemigrations
-$(chat-app) python manage.py migrate
-$(chat-app) python manage.py createsuperuser
+$(chatapp) python manage.py makemigrations
+$(chatapp) python manage.py migrate
+$(chatapp) python manage.py createsuperuser
 ```
 
 Run the server:
 
 ```bash
-$(chat-app) python manage.py runserver
+$(chatapp) python manage.py runserver
 ```
 
 8. Install & Build the Front end.
@@ -161,29 +161,29 @@ npm run production
 
 Click the Button to Deploy to [Render](https://render.com/).
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ennas-de/Chat-app)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ennas-de/chatapp)
 
 <a id="bug"></a>
 
 ## 🐛 Bug Reporting
 
-Feel free to [open an issue](https://github.com/ennas-de/Chat-app/issues) on GitHub if you find any bug.
+Feel free to [open an issue](https://github.com/ennas-de/chatapp/issues) on GitHub if you find any bug.
 
 <a id="feature-request"></a>
 
 ## ⭐ Feature Request
 
--   Feel free to [Open an issue](https://github.com/ennas-de/chat-app/issues) on GitHub to request any additional features you might need for your use case.
+-   Feel free to [Open an issue](https://github.com/ennas-de/chatapp/issues) on GitHub to request any additional features you might need for your use case.
 -   Connect with me on [LinkedIn](https://www.linkedin.com/in/abdulhakeem-muhammed-ibiyemi/). I'd love ❤️️ to hear from you.
 
 <a id="change-logs"></a>
 
 ## 📋 Change Log:
 
-Check [here](https://github.com/ennas-de/chat-app/commits/main) for change logs.
+Check [here](https://github.com/ennas-de/chatapp/commits/main) for change logs.
 
 <a id="license"></a>
 
 ## 📜 License
 
-This software is open source, licensed under the [MIT License](https://github.com/ennas-de/chat-app/blob/main/LICENSE).
+This software is open source, licensed under the [MIT License](https://github.com/ennas-de/chatapp/blob/main/LICENSE).
